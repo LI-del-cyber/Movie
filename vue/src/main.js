@@ -1,11 +1,11 @@
-import { createApp } from 'vue'
+import {createApp} from 'vue'
 import App from './App.vue'
 import router from './router'
 import '@/assets/css/global.css'
-import ElementPlus from 'element-plus'
+import ElementPlus, {ElMessage} from 'element-plus'
 import 'element-plus/dist/index.css'
 import zhCn from 'element-plus/es/locale/lang/zh-cn'
-import { ElMessage } from 'element-plus'
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 const app = createApp(App)
 
@@ -27,8 +27,6 @@ window.addEventListener('unhandledrejection', event => {
 app.use(router)
 app.use(ElementPlus, { locale: zhCn })
 app.mount('#app')
-
-import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
     app.component(key, component)

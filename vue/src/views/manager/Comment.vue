@@ -53,10 +53,10 @@
 </template>
 
 <script setup>
-import { reactive } from 'vue'
+import {reactive} from 'vue'
 import request from '@/utils/request.js'
-import { ElMessage, ElMessageBox } from 'element-plus'
-import { Delete, Edit } from '@element-plus/icons-vue'
+import {ElMessage, ElMessageBox} from 'element-plus'
+import {Delete, Edit} from '@element-plus/icons-vue'
 
 const data = reactive({
   formVisible: false,

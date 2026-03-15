@@ -79,11 +79,11 @@
 </template>
 
 <script setup>
-import {reactive, onMounted, onBeforeUnmount} from "vue";
+import {onBeforeUnmount, onMounted, reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
 import * as echarts from "echarts";
-import { Refresh } from '@element-plus/icons-vue';
+import {Refresh} from '@element-plus/icons-vue';
 
 // 主题色配置
 const THEME_COLORS = {

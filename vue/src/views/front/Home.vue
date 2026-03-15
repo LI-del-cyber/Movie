@@ -237,12 +237,9 @@
 </template>
 
 <script setup>
-import router from "@/router/index.js";
-import { reactive, onMounted, onBeforeMount } from "vue";
+import {onMounted, reactive} from "vue";
 import request from "@/utils/request.js";
-import { ElMessage } from "element-plus";
-import { Calendar, Bell, Clock, Close } from '@element-plus/icons-vue'
-import SnowEffect from '@/components/SnowEffect.vue';
+import {ElMessage} from "element-plus";
 import dayjs from 'dayjs'
 
 const data = reactive({

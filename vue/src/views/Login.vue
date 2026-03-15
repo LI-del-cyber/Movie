@@ -295,12 +295,11 @@
 </template>
 
 <script setup>
-import { reactive, ref, onMounted, onBeforeMount, onBeforeUnmount } from "vue";
-import { User, Lock, Phone, ArrowDown } from "@element-plus/icons-vue";
+import {onBeforeUnmount, onMounted, reactive, ref} from "vue";
+import {Lock, User} from "@element-plus/icons-vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
 import router from "@/router/index.js";
-import SnowEffect from "@/components/SnowEffect.vue";
 
 const formRef = ref()
 const forgetFormRef = ref()

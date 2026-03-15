@@ -233,7 +233,7 @@
 import {reactive, ref} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage, ElMessageBox} from "element-plus";
-import {Delete, View, Select, CloseBold, Plus} from "@element-plus/icons-vue";
+import {CloseBold, Delete, Select, View} from "@element-plus/icons-vue";
 
 const baseUrl = import.meta.env.VITE_BASE_URL
 const formRef = ref(null)

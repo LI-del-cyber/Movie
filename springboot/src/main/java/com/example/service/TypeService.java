@@ -1,6 +1,5 @@
 package com.example.service;
 
-import cn.hutool.core.date.DateUtil;
 import com.example.entity.Type;
 import com.example.mapper.TypeMapper;
 import com.github.pagehelper.PageHelper;

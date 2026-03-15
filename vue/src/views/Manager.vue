@@ -77,7 +77,7 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
+import {reactive} from "vue";
 import router from "@/router/index.js";
 import {ElMessage} from "element-plus";
 

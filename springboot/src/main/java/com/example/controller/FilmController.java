@@ -1,11 +1,8 @@
 package com.example.controller;
 
 import com.example.common.Result;
-import com.example.entity.Comment;
 import com.example.entity.Film;
-import com.example.service.CommentService;
 import com.example.service.FilmService;
-import com.example.service.UserService;
 import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;

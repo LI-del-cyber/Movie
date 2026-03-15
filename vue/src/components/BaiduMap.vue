@@ -28,8 +28,8 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, nextTick } from 'vue';
-import { ElMessage } from 'element-plus';
+import {nextTick, onMounted, ref, watch} from 'vue';
+import {ElMessage} from 'element-plus';
 
 const props = defineProps({
   // 地图高度

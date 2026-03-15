@@ -1,5 +1,5 @@
 import axios from "axios";
-import { ElMessage } from "element-plus";
+import {ElMessage} from "element-plus";
 import router from "@/router/index.js";
 
 // 防止多次提示 token 失效

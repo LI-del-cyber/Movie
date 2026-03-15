@@ -1,7 +1,6 @@
     package com.example.service;
 
     import cn.hutool.json.JSONUtil;
-    import com.example.entity.Comment;
     import com.example.entity.Film;
     import com.example.entity.Score;
     import org.slf4j.Logger;

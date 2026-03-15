@@ -11,7 +11,6 @@ import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDateTime;
-import java.util.Date;
 
 @RestController
 @RequestMapping("/comment")

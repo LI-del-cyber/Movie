@@ -314,11 +314,10 @@
 </template>
 
 <script setup>
-import {reactive, ref, defineEmits} from "vue";
+import {defineEmits, reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
 import router from "@/router/index.js";
-import { Star } from '@element-plus/icons-vue';
 
 // 声明组件可接收的事件
 const emit = defineEmits(['updateUser']);

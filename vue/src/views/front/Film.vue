@@ -118,10 +118,9 @@
 </template>
 
 <script setup>
-import {reactive, ref, onMounted} from "vue";
+import {onMounted, reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
-import { ArrowRight, Film } from '@element-plus/icons-vue';
 import router from "@/router/index.js";
 import {useRoute} from 'vue-router';
 

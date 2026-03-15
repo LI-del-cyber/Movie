@@ -174,11 +174,11 @@
 </template>
 
 <script setup>
-import { reactive, ref, onMounted, watch, computed } from "vue";
+import {computed, onMounted, reactive, ref, watch} from "vue";
 import request from "@/utils/request.js";
-import { ElMessage } from "element-plus";
+import {ElMessage} from "element-plus";
 import * as echarts from 'echarts';
-import { useRouter } from 'vue-router';
+import {useRouter} from 'vue-router';
 
 const router = useRouter();
 const lineChartRef = ref(null);

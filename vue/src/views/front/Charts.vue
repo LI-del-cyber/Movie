@@ -178,9 +178,9 @@
 </template>
 
 <script setup>
-import { reactive, computed, onMounted } from "vue";
+import {computed, onMounted, reactive} from "vue";
 import request from "@/utils/request.js";
-import { ElMessage } from "element-plus";
+import {ElMessage} from "element-plus";
 import router from "@/router/index.js";
 
 const data = reactive({

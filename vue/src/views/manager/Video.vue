@@ -97,6 +97,7 @@ import {reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage, ElMessageBox} from "element-plus";
 import {Delete, Edit} from "@element-plus/icons-vue";
+
 const baseUrl = import.meta.env.VITE_BASE_URL
 
 const data = reactive({

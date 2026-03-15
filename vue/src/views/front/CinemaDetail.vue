@@ -138,12 +138,10 @@
 </template>
 
 <script setup>
-import { reactive, onMounted, computed, ref } from 'vue';
-import { useRoute, useRouter } from 'vue-router';
-import { ElMessage } from 'element-plus';
-import { Picture, Location, Phone, Message, Position } from '@element-plus/icons-vue';
+import {computed, onMounted, reactive, ref} from 'vue';
+import {useRoute, useRouter} from 'vue-router';
+import {ElMessage} from 'element-plus';
 import request from '@/utils/request.js';
-import BaiduMap from '@/components/BaiduMap.vue';
 
 const route = useRoute();
 const router = useRouter();

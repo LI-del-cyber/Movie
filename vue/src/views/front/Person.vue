@@ -53,7 +53,7 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
+import {reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
 

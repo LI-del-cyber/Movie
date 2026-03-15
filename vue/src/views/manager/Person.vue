@@ -53,10 +53,10 @@
 </template>
 
 <script setup>
-import { reactive } from "vue";
+import {reactive} from "vue";
 import request from "@/utils/request.js";
 import {ElMessage} from "element-plus";
-import { fileApi } from "@/utils/api.js";  // 导入API模块
+import {fileApi} from "@/utils/api.js"; // 导入API模块
 
 const baseUrl = import.meta.env.VITE_BASE_URL
 

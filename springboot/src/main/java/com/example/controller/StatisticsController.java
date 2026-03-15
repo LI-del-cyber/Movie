@@ -10,7 +10,6 @@ import com.example.entity.Cinema;
 import com.example.entity.Film;
 import com.example.entity.Orders;
 import com.example.entity.Type;
-import com.example.mapper.FilmShowMapper;
 import com.example.service.CinemaService;
 import com.example.service.FilmService;
 import com.example.service.OrdersService;

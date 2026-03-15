@@ -141,12 +141,10 @@
 </template>
 
 <script setup>
-import { reactive, ref } from "vue";
+import {reactive, ref} from "vue";
 import request from "@/utils/request.js";
-import { ElMessage } from "element-plus";
-import { Plus } from "@element-plus/icons-vue";
-import BaiduMap from '@/components/BaiduMap.vue';
-import { useRouter } from 'vue-router';
+import {ElMessage} from "element-plus";
+import {useRouter} from 'vue-router';
 
 const baseUrl = import.meta.env.VITE_BASE_URL;
 const formRef = ref();

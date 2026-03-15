@@ -38,11 +38,9 @@
 </template>
 
 <script setup>
-import {reactive, ref} from "vue";
-import request from "@/utils/request.js";
+import {reactive} from "vue";
 import {ElMessage} from "element-plus";
-import router from "@/router/index.js";
-import { collectApi } from '@/utils/api.js';
+import {collectApi} from '@/utils/api.js';
 
 const data = reactive({
   user: JSON.parse(localStorage.getItem('xm-user') || '{}'),

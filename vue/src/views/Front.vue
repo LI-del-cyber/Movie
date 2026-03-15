@@ -57,12 +57,11 @@
 </template>
 
 <script setup>
-  import router from "@/router/index.js";
-  import { reactive } from "vue";
-  import request from "@/utils/request.js";
-  import { noticeApi } from '@/utils/api.js';
+import router from "@/router/index.js";
+import {reactive} from "vue";
+import {noticeApi} from '@/utils/api.js';
 
-  const data = reactive({
+const data = reactive({
     user: JSON.parse(localStorage.getItem('xm-user') || '{}'),
     top: '',
     noticeData: [],
